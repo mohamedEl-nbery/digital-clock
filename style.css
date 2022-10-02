@@ -1,0 +1,83 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(ZB3uqq.jpg);
+    background-size: cover;
+    font-family:sans-serif;
+    position: relative;
+}
+/* ------------------------------------------------------- */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    height: 120px;
+    border: 3px solid rgb(77, 181, 199);
+    padding: 2px;
+}
+.logo img {
+    background: rgb(166, 168, 168);
+    /* opacity: 0.7; */
+    width: 300px;
+    height: 120px;
+}
+
+h2
+{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    align-items: center;
+    color: rgb(10, 130, 150);
+}
+.clock
+{
+    display: flex;
+}
+
+.clock div 
+{
+    margin: 5px;;
+    position: relative;
+}
+
+.clock span
+{
+    width: 120px;
+    height: 80px;
+    background-color: rgb(124, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(2, 43, 59);
+    text-shadow: 2px 2px 5px rgba(1, 9, 54, 0.3);
+}
+.clock .text
+{
+    height: 45px;
+    background-color: rgb(1, 59, 63);
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.clock #ampm
+{
+    bottom: 0;
+    position: absolute;
+    height: 45px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 80px;
+    text-transform: uppercase;
+    background: rgb(10, 130, 150);
+    color: rgb(256, 256, 256);
+
+}
